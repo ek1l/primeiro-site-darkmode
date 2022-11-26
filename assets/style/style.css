@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+input {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav h1 {
+    color: green;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav h1:hover {
+    color: greenyellow;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav ul li a {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    color: green;
+    transition: 0.3s;
+}
+
+
+nav ul li a:hover {
+    color: greenyellow;
+
+}
+
+
+
+/* MAIN */
+
+main {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    color: greenyellow;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid green;
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primeira-form, .segunda-form {
+ display: flex;
+ gap: 50px;
+ align-items: center;
+}
+
+.img-ao-lado img{
+    width: 100%;
+    max-width: 550px;
+}
+
+input::placeholder {
+    color: green;
+}
+
+
+#dark {
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor:pointer;
+    color: black;
+    transition: 0.3s;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+#dark:hover {
+    border: 2px solid green;
+}
+
+form h1 {
+    color: green;
+    cursor: pointer;
+    transition: 0.3s;
+}
+form h1:hover {
+    color: greenyellow;
+}
+
+
+
+
+#htmldarkmode nav {
+    background-color: white;
+}
+
+
+#htmldarkmode input::placeholder {
+    color: black;
+}
